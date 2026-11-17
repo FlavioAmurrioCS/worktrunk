@@ -1,5 +1,5 @@
 [files]
-extend-exclude = ["docs/demos/vhs-keystrokes/", "*.snap", "vendor/", "*.log"]
+extend-exclude = ["docs/demos/vhs-keystrokes/", "*.snap", "*.log"]
 
 [default]
 # Generated `wt list` doc embeds (README, site docs, skills mirrors) truncate
@@ -17,6 +17,8 @@ extend-ignore-re = ['\w+…']
 PNGs = "PNGs"
 
 [default.extend-words]
+# GitHub contributor username viwe-monai
+viwe = "viwe"
 # Git commit hashes that typos flags as potential typos
 ba = "ba"  # Part of commit hashes like e28e0ba
 ede = "ede"  # Part of commit hashes like ede2fd3
